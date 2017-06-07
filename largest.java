@@ -17,11 +17,11 @@ class largest
 			b[i]= scan.nextInt();
 			c[i]= scan.nextInt();
 			if ((a[i]>b[i])&&(a[i]>c[i]))
-				System.out.println("the largest number is a"+a[i]);
+				System.out.println("the largest number is a "+a[i]);
 			else if (b[i]>c[i])
-				System.out.println("the largest number is b"+b[i]);
+				System.out.println("the largest number is b "+b[i]);
 			else
-				System.out.println("the largest number is c"+c[i]);
+				System.out.println("the largest number is c "+c[i]);
 	 	}
 	}
 }
